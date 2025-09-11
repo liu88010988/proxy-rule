@@ -1,3 +1,5 @@
 #!/bin/bash
 
-sing-box rule-set compile [--output file-name.srs] file-name.json
+./sing-box-mac rule-set compile geosite/direct.json
+./sing-box-mac rule-set compile geosite/proxy.json
+./sing-box-mac rule-set compile geoip/proxy.json
