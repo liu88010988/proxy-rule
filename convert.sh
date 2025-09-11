@@ -1,3 +1,5 @@
 #!/bin/bash
 
-mihomo convert-ruleset domain/ipcidr yaml/text XXX.yaml XXX.mrs
+./mihomo-mac convert-ruleset domain text geosite/direct.list geosite/direct.mrs
+./mihomo-mac convert-ruleset domain text geosite/proxy.list geosite/proxy.mrs
+./mihomo-mac convert-ruleset ipcidr text geoip/proxy.list geoip/proxy.mrs
