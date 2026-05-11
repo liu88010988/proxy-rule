@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "zjaisino.com",
+        "axnecp.com",
+        "aisino.cs",
+        "1024618.xyz",
+        "190213.xyz",
+        "gh-proxy.com",
+        "longbridge-inc.com",
+        "longemby.com",
+        "longemby.top"
+      ]
+    }
+  ]
+}
