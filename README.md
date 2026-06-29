@@ -1,0 +1,1 @@
+[![Daily Shell Script Runner](https://github.com/liu88010988/proxy-rule/actions/workflows/daily-run.yml/badge.svg?event=schedule)](https://github.com/liu88010988/proxy-rule/actions/workflows/daily-run.yml)
