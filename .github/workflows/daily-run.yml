@@ -1,0 +1,39 @@
+name: Daily Shell Script Runner
+
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to run on'
+        default: 'main'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        branch: [ rocket, sing, meta ]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Run shell script
+        run: |
+          chmod +x update.sh
+          ./update.sh
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Auto update from daily run $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push origin ${{ matrix.branch }}
