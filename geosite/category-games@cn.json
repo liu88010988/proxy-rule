@@ -9,11 +9,7 @@
         "xz.pphimalayanrt.com"
       ],
       "domain_suffix": [
-        "xboxlive.cn",
-        "bluearchive-cn.com",
         "yostar.cn",
-        "leagueoflegends.cn",
-        "lpl.com.cn",
         "legendofzelda.cn",
         "legendofzelda.com.cn",
         "miitomo.com.cn",
@@ -41,7 +37,11 @@
         "steampowered.com.8686c.com",
         "steamstatic.com.8686c.com",
         "steamchina.com",
-        "gstore.val.manlaxy.com"
+        "gstore.val.manlaxy.com",
+        "xboxlive.cn",
+        "leagueoflegends.cn",
+        "lpl.com.cn",
+        "bluearchive-cn.com"
       ],
       "domain_regex": [
         "^.+-mihayo\\.akamaized\\.net$",
