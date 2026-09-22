@@ -1,0 +1,16 @@
+{
+  "version": 5,
+  "rules": [
+    {
+      "domain": [
+        "local.adguard.org",
+        "time-ios.apple.com"
+      ],
+      "domain_suffix": [
+        "ntp.org.cn",
+        "pool.ntp.org",
+        "time.edu.cn"
+      ]
+    }
+  ]
+}

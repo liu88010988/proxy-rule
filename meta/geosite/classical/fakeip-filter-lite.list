@@ -1,0 +1,5 @@
+DOMAIN,local.adguard.org
+DOMAIN,time-ios.apple.com
+DOMAIN-SUFFIX,ntp.org.cn
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN-SUFFIX,time.edu.cn
