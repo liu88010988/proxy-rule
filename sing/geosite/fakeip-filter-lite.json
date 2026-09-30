@@ -9,7 +9,8 @@
       "domain_suffix": [
         "ntp.org.cn",
         "pool.ntp.org",
-        "time.edu.cn"
+        "time.edu.cn",
+        "ntp.org"
       ]
     }
   ]
