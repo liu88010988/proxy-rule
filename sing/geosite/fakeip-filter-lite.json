@@ -10,7 +10,9 @@
         "ntp.org.cn",
         "pool.ntp.org",
         "time.edu.cn",
-        "ntp.org"
+        "ntp.org",
+        "msftconnecttest.com",
+        "msftncsi.com"
       ]
     }
   ]

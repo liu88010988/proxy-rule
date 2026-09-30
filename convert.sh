@@ -11,3 +11,4 @@
 ./sing-box-mac rule-set compile sing/geosite/fakeip-filter-lite.json
 ./sing-box-mac rule-set compile sing/geoip/proxy.json
 ./sing-box-mac rule-set compile sing/geoip/direct.json
+./rocket-real-ip.sh

@@ -4,3 +4,5 @@ DOMAIN-SUFFIX,ntp.org.cn
 DOMAIN-SUFFIX,pool.ntp.org
 DOMAIN-SUFFIX,time.edu.cn
 DOMAIN-SUFFIX,ntp.org
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
