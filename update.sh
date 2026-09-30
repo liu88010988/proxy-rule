@@ -8,7 +8,7 @@ for IP_SET in "${IP_RULE_SET[@]}"; do
   curl -s -L "$BASE_URL/geoip/$IP_SET.json" -o "geoip/geoip-$IP_SET.json"
 done
 
-DOMAIN_RULE_SET=("cn" "geolocation-cn" "geolocation-!cn" "microsoft@cn" "apple" "google-cn" "private" "tld-cn" "category-games-cn" "category-ai-!cn" "github" "youtube" "google" "onedrive" "microsoft" "tiktok" "ookla-speedtest" "telegram" "netflix" "paypal" "gfw" "category-porn" "cloudflare-cn" "cloudflare" "jd" "alibaba" "tencent" "baidu" "slack")
+DOMAIN_RULE_SET=("cn" "geolocation-cn" "geolocation-!cn" "microsoft@cn" "apple" "google-cn" "private" "tld-cn" "category-games-cn" "category-ai-!cn" "github" "youtube" "google" "onedrive" "microsoft" "tiktok" "ookla-speedtest" "telegram" "netflix" "paypal" "gfw" "category-porn" "cloudflare-cn" "cloudflare" "jd" "alibaba" "tencent" "baidu" "slack" "category-cdn-cn")
 
 for DOMAIN_SET in "${DOMAIN_RULE_SET[@]}"; do
   curl -s -L "$BASE_URL/geosite/$DOMAIN_SET.srs" -o "geosite/geosite-$DOMAIN_SET.srs"
