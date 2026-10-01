@@ -1,7 +1,7 @@
 #!/bin/bash
 
 output="rocket/always-real-ip.conf"
-files=("rocket/geosite/direct.list" "rocket/geosite/fakeip-filter-lite.list")
+files=("rocket/geosite/geosite-my-direct.list" "rocket/geosite/geosite-my-fakeip-filter-lite.list")
 
 result=$(
   sed -n \
