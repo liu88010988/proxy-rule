@@ -1,7 +1,8 @@
 #!/bin/bash
 
-output="always-real-ip.conf"
-files=("geosite/geosite-my-direct.list" "geosite/geosite-my-fakeip-filter-lite.list")
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+output="$script_dir/always-real-ip.conf"
+files=("$script_dir/geosite/geosite-my-direct.list" "$script_dir/geosite/geosite-my-fakeip-filter-lite.list")
 
 result=$(
   sed -n \
