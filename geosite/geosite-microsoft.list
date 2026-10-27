@@ -69,8 +69,8 @@ DOMAIN-SUFFIX,azure
 DOMAIN-SUFFIX,xbox
 DOMAIN-SUFFIX,onedriveupdater
 DOMAIN-SUFFIX,onedrive
-DOMAIN-SUFFIX,microsoftnews.net
-DOMAIN-SUFFIX,internetexplorer.com
+DOMAIN-SUFFIX,microsoftnews.org
+DOMAIN-SUFFIX,xbox.eu
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoft.cz
 DOMAIN-SUFFIX,microsoft.de
@@ -107,9 +107,6 @@ DOMAIN-SUFFIX,m12.vc
 DOMAIN-SUFFIX,a-msedge.net
 DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,ankarazirvesi2018.com
-DOMAIN-SUFFIX,applicationinsights.io
-DOMAIN-SUFFIX,applicationinsights.net
-DOMAIN-SUFFIX,aria.ms
 DOMAIN-SUFFIX,asp.net
 DOMAIN-SUFFIX,aspnetcdn.com
 DOMAIN-SUFFIX,binads.com
@@ -155,7 +152,7 @@ DOMAIN-SUFFIX,ie9.com
 DOMAIN-SUFFIX,imaginecup.pl
 DOMAIN-SUFFIX,ingads.com
 DOMAIN-SUFFIX,internetexplorer.co
-DOMAIN-SUFFIX,microsoftnewskids.com
+DOMAIN-SUFFIX,internetexplorer.com
 DOMAIN-SUFFIX,intunewiki.com
 DOMAIN-SUFFIX,iotinactionevents.com
 DOMAIN-SUFFIX,kidgrid.tv
@@ -171,7 +168,7 @@ DOMAIN-SUFFIX,managedmeetingrooms.com
 DOMAIN-SUFFIX,meetfasttrack.com
 DOMAIN-SUFFIX,meetyourdevices.com
 DOMAIN-SUFFIX,mepn.com
-DOMAIN-SUFFIX,microsoftnewsforkids.org
+DOMAIN-SUFFIX,microsoftedgeinsider.com
 DOMAIN-SUFFIX,microsoft-falcon.io
 DOMAIN-SUFFIX,microsoft-int.com
 DOMAIN-SUFFIX,microsoft-ppe.com
@@ -265,7 +262,7 @@ DOMAIN-SUFFIX,sharepointonline.com
 DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,skype.net
-DOMAIN-SUFFIX,skypeassets.com
+DOMAIN-SUFFIX,microsoftnewskids.org
 DOMAIN-SUFFIX,skypeassets.net
 DOMAIN-SUFFIX,spo-msedge.net
 DOMAIN-SUFFIX,staffhub.ms
@@ -275,7 +272,7 @@ DOMAIN-SUFFIX,svc.ms
 DOMAIN-SUFFIX,sway-cdn.com
 DOMAIN-SUFFIX,sway.com
 DOMAIN-SUFFIX,sysinternals.com
-DOMAIN-SUFFIX,microsoftnewskids.net
+DOMAIN-SUFFIX,t-msedge.net
 DOMAIN-SUFFIX,tailwindtraders.com
 DOMAIN-SUFFIX,techhub.ms
 DOMAIN-SUFFIX,tfsallin.net
@@ -307,14 +304,14 @@ DOMAIN-SUFFIX,microsoftnews.cc
 DOMAIN-SUFFIX,xamarin.com
 DOMAIN-SUFFIX,vscodeedu.com
 DOMAIN-SUFFIX,microsoftnews.com
+DOMAIN-SUFFIX,microsoftnews.net
 DOMAIN-SUFFIX,microsoft.ch
-DOMAIN-SUFFIX,microsoftnews.org
 DOMAIN-SUFFIX,microsoftnewsforkids.com
 DOMAIN-SUFFIX,microsoftnewsforkids.net
-DOMAIN-SUFFIX,microsoftedgeinsider.com
+DOMAIN-SUFFIX,microsoftnewsforkids.org
+DOMAIN-SUFFIX,xboxservices.com
 DOMAIN-SUFFIX,microsoft.cl
-DOMAIN-SUFFIX,t-msedge.net
-DOMAIN-SUFFIX,microsoftnewskids.org
+DOMAIN-SUFFIX,skypeassets.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,msnewskids.com
 DOMAIN-SUFFIX,msnewskids.net
@@ -344,7 +341,7 @@ DOMAIN-SUFFIX,renovacionxboxlive.com
 DOMAIN-SUFFIX,tellmewhygame.com
 DOMAIN-SUFFIX,xbox.co
 DOMAIN-SUFFIX,xbox.com
-DOMAIN-SUFFIX,xbox.eu
+DOMAIN-SUFFIX,microsoftnewskids.net
 DOMAIN-SUFFIX,xbox.org
 DOMAIN-SUFFIX,xbox360.co
 DOMAIN-SUFFIX,xbox360.com
@@ -358,7 +355,7 @@ DOMAIN-SUFFIX,xboxone.co
 DOMAIN-SUFFIX,xboxone.com
 DOMAIN-SUFFIX,xboxone.eu
 DOMAIN-SUFFIX,xboxplayanywhere.com
-DOMAIN-SUFFIX,xboxservices.com
+DOMAIN-SUFFIX,microsoftnewskids.com
 DOMAIN-SUFFIX,xboxstudios.com
 DOMAIN-SUFFIX,xbx.lv
 DOMAIN-SUFFIX,beth.games
@@ -547,6 +544,10 @@ DOMAIN-SUFFIX,microsoftstore.com.hk
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
+DOMAIN-SUFFIX,applicationinsights.io
+DOMAIN-SUFFIX,applicationinsights.net
+DOMAIN-SUFFIX,aria.ms
+DOMAIN-SUFFIX,data.microsoft.com
 DOMAIN-SUFFIX,dynamics.cn
 DOMAIN-SUFFIX,engkoo.com
 DOMAIN-SUFFIX,lync.cn
@@ -581,6 +582,7 @@ DOMAIN-SUFFIX,powerappsportals.cn
 DOMAIN-SUFFIX,powerautomate.cn
 DOMAIN-SUFFIX,powerbi.cn
 DOMAIN-SUFFIX,sharepoint.cn
+DOMAIN-SUFFIX,telemetry.microsoft.com
 DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,microsoftads.com
 DOMAIN-SUFFIX,msads.net
@@ -680,6 +682,7 @@ DOMAIN-SUFFIX,chinacloudapi.cn
 DOMAIN-SUFFIX,chinacloudapp.cn
 DOMAIN-SUFFIX,chinacloudsites.cn
 DOMAIN-SUFFIX,hdinsightservices.cn
+DOMAIN-SUFFIX,in.applicationinsights.azure.com
 DOMAIN-SUFFIX,management-azure-devices-provisioning.cn
 DOMAIN-SUFFIX,management-azure-devices.cn
 DOMAIN-SUFFIX,mcchcdn.com
@@ -719,6 +722,8 @@ DOMAIN-SUFFIX,azchcdnp.com
 DOMAIN-SUFFIX,azchcdnq.com
 DOMAIN-SUFFIX,azchcdnr.com
 DOMAIN-SUFFIX,azchcdns.com
+DOMAIN,dc.applicationinsights.azure.com
+DOMAIN,live.applicationinsights.azure.com
 DOMAIN-SUFFIX,azure-dns.cn
 DOMAIN-SUFFIX,azure-dns-1.cn
 DOMAIN-SUFFIX,azure-dns-2.cn
@@ -746,4 +751,6 @@ DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN-SUFFIX,microsoftreactor.cn
 DOMAIN-SUFFIX,microsoftreactor.com.cn
 DOMAIN-SUFFIX,reactorms.com.cn
+DOMAIN,dc.services.visualstudio.com
 DOMAIN,download.visualstudio.microsoft.com
+DOMAIN,rt.services.visualstudio.com
